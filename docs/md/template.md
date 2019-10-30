@@ -1,10 +1,9 @@
 ---
-title: template
+title: 从零开始打造一个APP应用
 ---
 
 ## 介绍
 
-<!-- `zwslib`是基于`vue`和`element-ui`开发的可复用框架库，主要是将公司`web`前端项目里可以复用的业务模块抽取出来，便于二次开发。主要包括页面层`Components`和逻辑层`sdk`。 -->
 
 `template`是基于`zwslib`库开发的可复用框架示例模板。
 
