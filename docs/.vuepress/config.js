@@ -41,6 +41,11 @@ module.exports = {
         tags: true
       },
       {
+        text: 'kotlin',
+        link: '/tags/',
+        tags: true
+      },
+      {
         text: 'Web',
         link: '/tags/',
         tags: true
@@ -56,7 +61,7 @@ module.exports = {
       }
     ],
     // sidebar: 'auto', // 侧边栏配置
-    sidebarDepth: 5, // 侧边栏显示2级
+    sidebarDepth: 5, // 侧边栏显示5级
     sidebar: [
       {
         title: '专题',   // 必要的
