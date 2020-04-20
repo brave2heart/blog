@@ -33,47 +33,38 @@ module.exports = {
   themeConfig: {
     // logo: '/assets/img/logo.png',
     nav: [
-      // 导航栏配置
-
-      {
-        text: 'Android',
-        link: '/tags/',
-        tags: true
-      },
       {
         text: 'kotlin',
-        link: '/tags/',
-        tags: true
+        link: '/md/kotlin.md'
       },
       {
-        text: 'Web',
-        link: '/tags/',
-        tags: true
-      },
-      {
-        text: "Fluter",
-        link: '/tags/',
-        tags: true
+        text: 'VuePress',
+        link: 'https://vuepress.vuejs.org/zh/'
       },
       {
         text: 'GitHub',
-        link: 'https://github.com/wxxhxx'
+        link: 'https://github.com/dpoyweihao'
       }
     ],
-    // sidebar: 'auto', // 侧边栏配置
-    sidebarDepth: 5, // 侧边栏显示5级
-    sidebar: [
-      {
-        title: '专题',   // 必要的
-        path: '/foo/',      // 可选的, 应该是一个绝对路径
-        collapsable: true, // 可选的, 默认值是 true,
-        sidebarDepth: 1,    // 可选的, 默认值是 1
-        children: [
-          '/md/template.md'
-        ]
-      },
-      '/md/zwslib.md',
-      '/md/template.md'
-    ]
+    sidebar: 'auto', // 侧边栏配置
+    sidebarDepth: 2, // 侧边栏显示2级
+    sidebar: {
+      // {
+      //   title: '专题',   // 必要的
+      //   path: '/foo/',      // 可选的, 应该是一个绝对路径
+      //   collapsable: true, // 可选的, 默认值是 true,
+      //   sidebarDepth: 1,    // 可选的, 默认值是 1
+      //   children: [
+      //     '/md/Kotlin.md'
+      //   ]
+      // },
+      '/md/kotlin.md': [
+        {
+          title: '基础',
+          collapsable: false
+        }
+      ]
+    }
   }
 }
+
