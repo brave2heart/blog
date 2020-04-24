@@ -9,9 +9,15 @@ home: true
 #   background: '#fff',
 #   borderRadius: '1rem',
 # }
+# home: true
+bgImage: 'https://api.xygeng.cn/Bing/'
 bgImageStyle: {
-  height: '450px'
+  height: '30rem'
 }
+footer: MIT Licensed | Copyright  2019-2020 zoomla!CMS
+# bgImageStyle: {
+#   height: '450px'
+# }
 isShowTitleInHome: false
 actionText: Guide
 actionLink: /views/other/guide

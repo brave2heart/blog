@@ -1,6 +1,6 @@
 module.exports = {
-  "title": "",
-  "description": "",
+  "title": "WEI HAO",
+  "description": "个人博客",
   "dest": "public",
   "head": [
     [
@@ -68,13 +68,13 @@ module.exports = {
         "link": "https://vuepress-theme-reco.recoluan.com"
       }
     ],
-    "logo": "/logo.png",
+    "logo": "/sunwukong.png",
     "search": true,
     "searchMaxSuggestions": 10,
     "sidebar": "auto",
     "lastUpdated": "Last Updated",
     "author": "",
-    "authorAvatar": "/avatar.png",
+    "authorAvatar": "/sunwukong.png",
     "record": "xxxx",
     "startYear": "2017"
   },
