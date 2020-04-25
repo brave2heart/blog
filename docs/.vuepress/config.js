@@ -80,5 +80,47 @@ module.exports = {
   },
   "markdown": {
     "lineNumbers": true
-  }
+  },
+  "plugins": [
+    [
+      "@vuepress-reco/vuepress-plugin-bgm-player",
+      {
+        "audios": [
+          // 本地文件示例
+          {
+            "name": 'Touch',
+            "artist": 'Barcelona',
+            "url": '/bgm/touch.mp3',
+            "cover": '/bgm/1.jpg'
+          },
+          {
+            "name": 'Fall in Love',
+            "artist": 'Barcelona',
+            "url": './bgm/fall_in_Love.mp3',
+            "cover": '/bgm/1.jpg'
+          },
+  
+          // 网络文件示例
+          {
+            "name": '강남역 4번 출구',
+            "artist": 'Plastic / Fallin` Dild',
+            "url": 'https://assets.smallsunnyfox.com/music/2.mp3',
+            "cover": 'https://assets.smallsunnyfox.com/music/2.jpg'
+          },
+          {
+            "name": '用胳膊当枕头',
+            "artist": '최낙타',
+            "url": 'https://assets.smallsunnyfox.com/music/3.mp3',
+            "cover": 'https://assets.smallsunnyfox.com/music/3.jpg'
+          }
+        ],
+        "position":{
+          "left": '10px',
+          "bottom": '10px',
+          "z-index": '999999'
+        }
+      
+      }
+    ]
+  ]
 }
