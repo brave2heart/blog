@@ -68,13 +68,13 @@ module.exports = {
         "link": "https://vuepress-theme-reco.recoluan.com"
       }
     ],
-    "logo": "/sunwukong.png",
+    "logo": "/logo.png",
     "search": true,
     "searchMaxSuggestions": 10,
     "sidebar": "auto",
     "lastUpdated": "Last Updated",
     "author": "",
-    "authorAvatar": "/sunwukong.png",
+    "authorAvatar": "/logo.png",
     "record": "xxxx",
     "startYear": "2017"
   },
