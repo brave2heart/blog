@@ -22,17 +22,17 @@ module.exports = {
   "themeConfig": {
     "nav": [
       {
-        "text": "主页",
+        "text": "Home",
         "link": "/",
         "icon": "reco-home"
       },
       {
-        "text": "时间线",
+        "text": "Timeline",
         "link": "/timeline/",
         "icon": "reco-date"
       },
       {
-        "text": "我的",
+        "text": "Cocact",
         "icon": "reco-message",
         "items": [
           {
@@ -47,11 +47,11 @@ module.exports = {
     "blogConfig": {
       "category": {
         "location": 2,
-        "text": "分类"
+        "text": "Category"
       },
       "tag": {
         "location": 3,
-        "text": "标签"
+        "text": "Tag"
       }
     },
     "friendLink": [
@@ -75,8 +75,13 @@ module.exports = {
     "lastUpdated": "Last Updated",
     "author": "",
     "authorAvatar": "/logo.png",
-    "record": "xxxx",
-    "startYear": "2020"
+    "record": "BRAVE HEART",
+    "startYear": "2019",
+    "valineConfig": {
+        "appId": 'sdkdADwnb1yC5bO2RIHOGmDf-gzGzoHsz',// your appId
+        "appKey": 'QkrMRuYIenMBGLNNTfgBqYgd', // your appKey
+      }
+    
   },
   "markdown": {
     "lineNumbers": true
@@ -96,27 +101,14 @@ module.exports = {
           {
             "name": 'Fall in Love',
             "artist": 'Barcelona',
-            "url": './bgm/fall_in_Love.mp3',
+            "url": '/bgm/fall_in_love.mp3',
             "cover": '/bgm/1.jpg'
           },
-  
-          // 网络文件示例
-          {
-            "name": '강남역 4번 출구',
-            "artist": 'Plastic / Fallin` Dild',
-            "url": 'https://assets.smallsunnyfox.com/music/2.mp3',
-            "cover": 'https://assets.smallsunnyfox.com/music/2.jpg'
-          },
-          {
-            "name": '用胳膊当枕头',
-            "artist": '최낙타',
-            "url": 'https://assets.smallsunnyfox.com/music/3.mp3',
-            "cover": 'https://assets.smallsunnyfox.com/music/3.jpg'
-          }
         ],
+        "autoShrink":true,
         "position":{
           "left": '10px',
-          "bottom": '10px',
+          "bottom": '100px',
           "z-index": '999999'
         }
       
