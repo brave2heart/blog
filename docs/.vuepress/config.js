@@ -1,6 +1,6 @@
 module.exports = {
-  "title": "",
-  "description": "",
+  "title": "WEI HAO",
+  "description": "个人博客",
   "dest": "public",
   "head": [
     [
@@ -27,17 +27,17 @@ module.exports = {
         "icon": "reco-home"
       },
       {
-        "text": "TimeLine",
+        "text": "Timeline",
         "link": "/timeline/",
         "icon": "reco-date"
       },
       {
-        "text": "Contact",
+        "text": "Cocact",
         "icon": "reco-message",
         "items": [
           {
             "text": "GitHub",
-            "link": "https://github.com/recoluan",
+            "link": "https://github.com/brave2heart",
             "icon": "reco-github"
           }
         ]
@@ -74,11 +74,45 @@ module.exports = {
     "sidebar": "auto",
     "lastUpdated": "Last Updated",
     "author": "",
-    "authorAvatar": "/avatar2.png",
-    "record": "xxxx",
-    "startYear": "2017"
+    "authorAvatar": "/logo.png",
+    "record": "BRAVE HEART",
+    "startYear": "2019",
+    "valineConfig": {
+        "appId": 'sdkdADwnb1yC5bO2RIHOGmDf-gzGzoHsz',// your appId
+        "appKey": 'QkrMRuYIenMBGLNNTfgBqYgd', // your appKey
+      }
+    
   },
   "markdown": {
     "lineNumbers": true
-  }
+  },
+  "plugins": [
+    [
+      "@vuepress-reco/vuepress-plugin-bgm-player",
+      {
+        "audios": [
+          // 本地文件示例
+          {
+            "name": 'Touch',
+            "artist": 'Barcelona',
+            "url": '/bgm/touch.mp3',
+            "cover": '/bgm/1.jpg'
+          },
+          {
+            "name": 'Fall in Love',
+            "artist": 'Barcelona',
+            "url": '/bgm/fall_in_love.mp3',
+            "cover": '/bgm/1.jpg'
+          },
+        ],
+        "autoShrink":true,
+        "position":{
+          "left": '10px',
+          "bottom": '100px',
+          "z-index": '999999'
+        }
+      
+      }
+    ]
+  ]
 }
