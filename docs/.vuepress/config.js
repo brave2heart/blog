@@ -68,7 +68,7 @@ module.exports = {
         "link": "https://vuepress-theme-reco.recoluan.com"
       }
     ],
-    "logo": "/avatar2.png",
+    "logo": "/logo.png",
     "search": true,
     "searchMaxSuggestions": 10,
     "sidebar": "auto",
@@ -88,6 +88,7 @@ module.exports = {
   },
   "plugins": [
     [
+      "vuepress-plugin-auto-sidebar",
       "@vuepress-reco/vuepress-plugin-bgm-player",
       {
         "audios": [
@@ -113,6 +114,7 @@ module.exports = {
         }
       
       }
-    ]
+    ],
+
   ]
 }
