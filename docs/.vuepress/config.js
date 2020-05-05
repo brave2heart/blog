@@ -20,8 +20,7 @@ module.exports = {
   ],
   "theme": "reco",
   "themeConfig": {
-    "nav": [
-      {
+    "nav": [{
         "text": "Home",
         "link": "/",
         "icon": "reco-home"
@@ -34,13 +33,11 @@ module.exports = {
       {
         "text": "Cocact",
         "icon": "reco-message",
-        "items": [
-          {
-            "text": "GitHub",
-            "link": "https://github.com/brave2heart",
-            "icon": "reco-github"
-          }
-        ]
+        "items": [{
+          "text": "GitHub",
+          "link": "https://github.com/brave2heart",
+          "icon": "reco-github"
+        }]
       }
     ],
     "type": "blog",
@@ -54,8 +51,7 @@ module.exports = {
         "text": "Tag"
       }
     },
-    "friendLink": [
-      {
+    "friendLink": [{
         "title": "午后南杂",
         "desc": "Enjoy when you can, and endure when you must.",
         "email": "1156743527@qq.com",
@@ -78,43 +74,39 @@ module.exports = {
     "record": "BRAVE HEART",
     "startYear": "2019",
     "valineConfig": {
-        "appId": 'sdkdADwnb1yC5bO2RIHOGmDf-gzGzoHsz',// your appId
-        "appKey": 'QkrMRuYIenMBGLNNTfgBqYgd', // your appKey
-      }
-    
+      "appId": 'sdkdADwnb1yC5bO2RIHOGmDf-gzGzoHsz', // your appId
+      "appKey": 'QkrMRuYIenMBGLNNTfgBqYgd', // your appKey
+    }
+
   },
   "markdown": {
     "lineNumbers": true
   },
-  "plugins": [
-    [
-      "vuepress-plugin-auto-sidebar",
-      "@vuepress-reco/vuepress-plugin-bgm-player",
-      {
-        "audios": [
-          // 本地文件示例
-          {
-            "name": 'Touch',
-            "artist": 'Barcelona',
-            "url": '/bgm/touch.mp3',
-            "cover": '/bgm/1.jpg'
-          },
-          {
-            "name": 'Fall in Love',
-            "artist": 'Barcelona',
-            "url": '/bgm/fall_in_love.mp3',
-            "cover": '/bgm/1.jpg'
-          },
-        ],
-        "autoShrink":true,
-        "position":{
-          "left": '10px',
-          "bottom": '100px',
-          "z-index": '999999'
-        }
-      
+  "plugins": {
+    "vuepress-plugin-auto-sidebar": {},
+    "@vuepress-reco/vuepress-plugin-bgm-player": {
+      "audios": [
+        // 本地文件示例
+        {
+          "name": 'Touch',
+          "artist": 'Barcelona',
+          "url": '/bgm/touch.mp3',
+          "cover": '/bgm/1.jpg'
+        },
+        {
+          "name": 'Fall in Love',
+          "artist": 'Barcelona',
+          "url": '/bgm/fall_in_love.mp3',
+          "cover": '/bgm/1.jpg'
+        },
+      ],
+      "autoShrink": true,
+      "position": {
+        "left": '10px',
+        "bottom": '100px',
+        "z-index": '999999'
       }
-    ],
 
-  ]
+    }
+  }
 }
